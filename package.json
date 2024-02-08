@@ -13,7 +13,6 @@
     "@coinbase/onchainkit": "^0.3.0",
     "next": "14.1.0",
     "node-p5": "^1.0.4",
-    "canvas": "2.6.1",
     "react": "^18",
     "react-dom": "^18"
   },  
