@@ -31,6 +31,11 @@ if (
   process.env.LD_LIBRARY_PATH = `${
     process.env.PWD
   }/node_modules/canvas/build/Release:${process.env.LD_LIBRARY_PATH || ''}`;
+
+  process.env.LD_PRELOAD = `${
+    process.env.PWD
+  }/node_modules/canvas/build/Release/libz.so.1`;
+
 }
 
 export default nextConfig;
